@@ -28,3 +28,33 @@ To compile and run the project:
 make
 ./cloud_storage_automation
 
+Outputs:
+Provision Storage:
+
+The program outputs a message indicating the provisioning of cloud storage and the allocated storage size.
+Example Output:
+bash
+Copy code
+Provisioning cloud storage...
+Allocated 100GB storage.
+Monitor Storage:
+
+The program outputs a message showing the current storage usage relative to the total allocated storage.
+Example Output:
+bash
+Copy code
+Monitoring cloud storage usage...
+Current usage: 45GB of 100GB.
+Scale Storage:
+
+The program outputs a message indicating that the storage is being scaled up and shows the new total storage size.
+Example Output:
+bash
+Copy code
+Scaling cloud storage...
+Scaled up to 200GB storage.
+Summary:
+Input: The inputs are the internal processes defined in the program (provisioning, monitoring, scaling).
+Output: The outputs are console messages that simulate the results of these processes, such as storage allocation, usage monitoring, and scaling.
+This project is a simplified simulation, primarily for educational purposes, and does not involve actual cloud operations or user inputs during execution. The output demonstrates how the system might behave in a real cloud environment, providing insights into how automation could be handled for cloud storage management.
+
